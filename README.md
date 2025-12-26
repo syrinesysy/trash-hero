@@ -2,10 +2,6 @@
 
 **Projet de Deep Learning - Classification d'images**
 
-##  Équipe
-- **TRABELSI Syrine** 
-- **SAMMOUDA Cyrine** 
-
 ##  Description
 Système de classification automatique de déchets utilisant du Deep Learning (PyTorch) pour identifier 6 catégories : carton, verre, métal, papier, plastique et déchets non recyclables.
 
