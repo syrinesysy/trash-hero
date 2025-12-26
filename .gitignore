@@ -1,0 +1,13 @@
+# Fichier .gitignore
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+data/test_images/
+*.pth
+*.pt
+models/*.pth
+.env
+.DS_Store

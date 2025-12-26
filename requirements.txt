@@ -1,0 +1,50 @@
+# ==============================================================================
+# TRASH HERO - Requirements
+# Projet de tri intelligent des déchets par IA
+# ==============================================================================
+
+# PyTorch et TorchVision
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data Science & ML
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pillow>=10.0.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=6.5.0
+ipywidgets>=8.0.0
+
+# API (optionnel - pour le déploiement)
+flask>=2.3.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# ONNX (optionnel - pour export vers TensorFlow Lite)
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# Utilities
+python-dotenv>=1.0.0
+pathlib>=1.0.1
+
+# ==============================================================================
+# INSTALLATION:
+# pip install -r requirements.txt
+# ==============================================================================
+
+# Pour GPU (CUDA):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Pour CPU uniquement:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu

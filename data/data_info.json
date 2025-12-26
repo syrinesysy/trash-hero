@@ -1,0 +1,16 @@
+{
+    "n_classes": 6,
+    "class_names": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ],
+    "img_size": 224,
+    "batch_size": 32,
+    "n_train": 2331,
+    "n_valid": 746,
+    "n_test": 744
+}
